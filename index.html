@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chitkala® | Experimental Learning Platform</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#home">
+                    <img src="assets/logo.jpg" alt="Chitkala Logo" id="logo-img">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#who-we-are">Who We Are</a></li>
+                <li><a href="#philosophy">Our Philosophy</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home / Hero Section -->
+        <section id="home" class="hero section-scroll">
+            <canvas id="particle-canvas"></canvas>
+            <div class="hero-content" data-parallax>
+                <h1 class="glow-text">Igniting Young Minds Through Hands-On Learning</h1>
+                <p class="hero-subtitle">Design Thinking • Systems Thinking • Creative Making</p>
+                <div class="hero-cta">
+                    <a href="#philosophy" class="btn btn-primary">Explore Programs</a>
+                    <a href="#contact" class="btn btn-outline">Join Us</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll</span>
+                <div class="chevron"></div>
+            </div>
+        </section>
+
+        <!-- Who We Are Section -->
+        <section id="who-we-are" class="who-we-are section-scroll reveal-section">
+            <div class="container section-split">
+                <div class="split-content reveal-left">
+                    <h2 class="section-title">Who We Are</h2>
+                    <p class="lead-text">Chitkala® is a pioneering experimental learning platform, recreational activity
+                        centre, and co-creation space.</p>
+                    <p>We see that every young learner is naturally curious, active, and creative. We recognize this
+                        immense potential in every young learner and aim to cultivate it through a unique approach.</p>
+                    <p>We focus on bringing them back to hands-on, activity-based learning while complementing digital
+                        platforms, aligning with NEP-2020 and NCF-2023.</p>
+                </div>
+                <div class="split-image reveal-right">
+                    <div class="image-wrapper glow-border">
+                        <img src="assets/who-we-are-placeholder.png" alt="Learners building projects">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Philosophy Section -->
+        <section id="philosophy" class="philosophy section-scroll reveal-section">
+            <div class="container">
+                <h2 class="section-title center">Our Philosophy</h2>
+                <div class="cards-grid">
+                    <div class="card stagger-card">
+                        <div class="card-icon">🔬</div>
+                        <h3>Experiential Learning</h3>
+                        <p>Bringing learners back to hands-on, activity-based discovery away from pure theory.</p>
+                    </div>
+                    <div class="card stagger-card">
+                        <div class="card-icon">🧠</div>
+                        <h3>Critical Thinking</h3>
+                        <p>Encouraging problem-solving and analytical skills from an early age for lifelong adaptation.
+                        </p>
+                    </div>
+                    <div class="card stagger-card">
+                        <div class="card-icon">🌱</div>
+                        <h3>Constructive Habits</h3>
+                        <p>"The constructive habit formed at early age helps a learner apply it subconsciously
+                            throughout life."</p>
+                    </div>
+                    <div class="card stagger-card">
+                        <div class="card-icon">🎨</div>
+                        <h3>Creative Making</h3>
+                        <p>From clay modelling to 3D printing, from kite-making to electronics. The art of making things
+                            real.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery section-scroll reveal-section">
+            <div class="container">
+                <h2 class="section-title center">Gallery</h2>
+
+                <div class="gallery-slider-container">
+                    <button class="slider-btn prev-btn" aria-label="Previous image">&#10094;</button>
+
+                    <div class="gallery-track">
+                        <!-- Slide 1 (Active) -->
+                        <div class="gallery-slide active">
+                            <img src="assets/gallery/1.png" alt="Gallery Image 1" class="gallery-img">
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="gallery-slide">
+                            <img src="assets/gallery/2.png" alt="Gallery Image 2" class="gallery-img">
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="gallery-slide">
+                            <img src="assets/gallery/3.png" alt="Gallery Image 3" class="gallery-img">
+                        </div>
+                        <!-- Slide 4 -->
+                        <div class="gallery-slide">
+                            <img src="assets/gallery/4.png" alt="Gallery Image 4" class="gallery-img">
+                        </div>
+                        <!-- Slide 5 -->
+                        <div class="gallery-slide">
+                            <img src="assets/gallery/5.png" alt="Gallery Image 5" class="gallery-img">
+                        </div>
+                        <!-- Slide 6 -->
+                        <div class="gallery-slide">
+                            <img src="assets/gallery/6.png" alt="Gallery Image 6" class="gallery-img">
+                        </div>
+                    </div>
+
+                    <button class="slider-btn next-btn" aria-label="Next image">&#10095;</button>
+
+                    <div class="slider-dots">
+                        <span class="dot active" data-index="0"></span>
+                        <span class="dot" data-index="1"></span>
+                        <span class="dot" data-index="2"></span>
+                        <span class="dot" data-index="3"></span>
+                        <span class="dot" data-index="4"></span>
+                        <span class="dot" data-index="5"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer id="contact" class="footer">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <h3 class="footer-title">Chitkala®</h3>
+                <p>Igniting young minds with creativity and technology.</p>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li>📍 18-Saitaj Complex, Kothrud, Pune 411038</li>
+                    <li>📞 83291 64327 (with WhatsApp)</li>
+                    <li>✉️ <a href="mailto:chitkalalearning@gmail.com">chitkalalearning@gmail.com</a></li>
+                    <li>📘 <a href="#" target="_blank">Chitkala Design Learning</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Chitkala®. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
