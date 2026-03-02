@@ -779,4 +779,51 @@ p {
     .mobile-menu-btn.active span:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
+
+    /* Scaling adjustments for mobile */
+    .section-title {
+        font-size: 2.2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .section-scroll {
+        padding: 60px 0;
+        min-height: auto;
+    }
+
+    .hero {
+        padding-top: 120px;
+    }
+
+    .container,
+    .hero-content {
+        padding: 0 1rem;
+    }
+
+    /* Our Philosophy Mobile: 2 tiles up, 2 tiles down */
+    .cards-grid {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .card {
+        flex: 0 0 calc(50% - 0.5rem);
+        padding: 1.5rem 0.5rem;
+    }
+
+    .card-icon {
+        font-size: 1.5rem;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        margin-bottom: 1rem;
+    }
+
+    .card h3 {
+        font-size: 1rem;
+    }
+
+    .card p {
+        font-size: 0.85rem;
+    }
 }
